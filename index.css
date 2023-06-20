@@ -426,7 +426,7 @@ header{
 }
 
 .contacto_container{
-    background-color: rgb(211, 208, 208);
+    background-color: var(--color-secundario);
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -434,6 +434,7 @@ header{
     margin-bottom: 2%;
     border: solid;
     border-radius: 10px;
+    border-color: var(--color-acento);
     box-shadow: 22px 22px 30px var(--color-acento);
 }
 
@@ -465,7 +466,7 @@ header{
     padding-block: 3% ;
     font-size: 1.5em;
     font-family: var(--otra-font);
-    
+    text-align: center;
     align-self: center;
 }
 
@@ -477,6 +478,7 @@ header{
     font-family: var(--secondary-font);
     text-decoration: underline;
     text-decoration-color: var(--color-acento);
+    text-align: center;
 }
 
 
